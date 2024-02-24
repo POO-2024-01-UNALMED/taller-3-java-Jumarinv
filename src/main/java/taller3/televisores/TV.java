@@ -25,7 +25,7 @@ public class TV {
 		estado = false;
 	}
 	
-	boolean getEstado () {
+	public boolean getEstado () {
 		
 		return estado;
 	}
@@ -59,12 +59,12 @@ public class TV {
 		}
 	}
 	
-	void setMarca (Marca marca) {
+	public void setMarca (Marca marca) {
 		
 		this.marca = marca;
 	}
 	
-	Marca getMarca (){
+	public Marca getMarca (){
 		
 		return marca;
 		
@@ -76,18 +76,18 @@ public class TV {
 		this.canal = canal;
 	}
 	
-	int getCanal (){
+	public int getCanal (){
 		
 		return canal;
 		
 	}
 	
-	void setPrecio (int precio) {
+	public void setPrecio (int precio) {
 		
 		this.precio = precio;
 	}
 	
-	int getPrecio (){
+	public int getPrecio (){
 		
 		return precio;
 	
@@ -98,29 +98,29 @@ public class TV {
 		this.volumen = volumen;
 	}
 	
-	int getVolumen (){
+	public int getVolumen (){
 		
 		return volumen;
 	
 	}
 	
-	void setControl (Control control) {
+	public void setControl (Control control) {
 		
 		this.control = control;
 	}
 	
-	Control getControl (){
+	public Control getControl (){
 		
 		return control;
 	
 	}
 	
-	void setNumTV () {
+	public void setNumTV () {
 		
 		numTV = numTV + 1;
 	}
 	
-	int getNumTV () {
+	public int getNumTV () {
 		
 		return numTV;
 	}

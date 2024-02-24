@@ -10,14 +10,14 @@ public class Marca {
 	}
 	
 	
-	String getNombre () {
+	public String getNombre () {
 		
 		return this.nombre;
 		
 		
 	}
 	
-	void setNombre (String name) {
+	public void setNombre (String name) {
 		
 		this.nombre = name;
 		

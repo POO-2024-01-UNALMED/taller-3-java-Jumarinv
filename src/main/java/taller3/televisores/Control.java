@@ -9,53 +9,53 @@ public class Control {
 		this.tv = tv;
 	}
 	
-	void setTV (TV tv) {
+	public void setTV (TV tv) {
 		
 		this.enlazar (tv);
 	}
 	
-	TV getTV () {
+	public TV getTV () {
 		
 		return tv;
 	}
 	
-	void turnOn () {
+	public void turnOn () {
 		
 		this.tv.turnOn();
 	}
 	
-	void turnOff () {
+	public void turnOff () {
 		
 		this.tv.turnOff();
 	}
 	
-	void canalUp () {
+	public void canalUp () {
 		
 		this.tv.canalUp();
 	}
 	
-	void canalDown () {
+	public void canalDown () {
 		
 		this.tv.canalDown();
 	}
 	
 	
-	void volumenUp () {
+	public void volumenUp () {
 		
 		this.tv.volumenUp();
 	}
 	
-	void volumenDown () {
+	public void volumenDown () {
 		
 		this.tv.volumenDown();
 	}
 	
-	void setCanal (int canal) {
+	public void setCanal (int canal) {
 		
 		this.tv.setCanal(canal);
 	}
 	
-	void setVolumen (int volumen) {
+	public void setVolumen (int volumen) {
 		
 		this.tv.setVolumen(volumen);
 	}
