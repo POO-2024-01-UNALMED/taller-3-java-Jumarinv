@@ -115,9 +115,9 @@ public class TV {
 	
 	}
 	
-	public void setNumTV () {
+	public void setNumTV (int numero) {
 		
-		numTV = numTV + 1;
+		numTV = numero;
 	}
 	
 	public int getNumTV () {
