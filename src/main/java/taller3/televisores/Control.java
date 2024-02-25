@@ -9,12 +9,12 @@ public class Control {
 		this.tv = tv;
 	}
 	
-	public void setTV (TV tv) {
+	public void setTv (TV tv) {
 		
 		this.enlazar (tv);
 	}
 	
-	public TV getTV () {
+	public TV getTv () {
 		
 		return tv;
 	}
