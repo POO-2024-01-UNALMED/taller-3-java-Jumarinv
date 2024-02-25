@@ -14,7 +14,7 @@ public class TV {
 		
 		this.marca = marca; this.estado = estado;
 		
-		numTV = numTV + 1;
+		numTV ++;
 	}
 	
 	public void turnOn () {
@@ -117,12 +117,12 @@ public class TV {
 	
 	}
 	
-	public void setNumTV (int numero) {
+	static public void setNumTV (int numero) {
 		
 		numTV = numero;
 	}
 	
-	public int getNumTV () {
+	static public int getNumTV () {
 		
 		return numTV;
 	}
